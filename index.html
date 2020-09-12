@@ -10,7 +10,7 @@
 <script src="js/jquery.countdown.js"></script>
 <script>
 $(function () {	
-	var holEnd = new Date();
+   var holEnd = new Date();
    holEnd = new Date(Date.UTC(2020, 9-1, 12, 21, 40, 0)); //US END TIME!!  15.40 PM PT on 8-1/15
    //usHol = new Date(Date.UTC(2020, 9-1, 17, 13, 40, 0)); // EMEA END TIME!!  15.40 PM CET  on 8-1/17
 	
@@ -19,12 +19,10 @@ $(function () {
       significant: 3,
       //format: 'HMS'});
       format: 'MS'});
-	$('#year').text(holEnd.getFullYear());
+   $('#year').text(holEnd.getFullYear());
 });
 </script>
 </head>
 
-<body>
-   <div class="container" id="defaultCountdown"></div>
-</body>
+<body><div class="container" id="defaultCountdown"></div></body>
 </html>
