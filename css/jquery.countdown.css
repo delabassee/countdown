@@ -13,7 +13,8 @@ html, body, .container {
 }
 
 body {
-   background-image: url("../background.jpg");
+   background-image: url("../clean-background.png");
+   //background-image: url("../background.jpg");
    no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -21,10 +22,12 @@ body {
    background-size: cover;
 }
 
+
+
 .container {
    color: white;
    font-family: "OracleSansVF";
-   font-size: 12vh;
+   font-size: 9vh;
    font-weight: bold;
    position: absolute; /*Can also be `fixed`*/
    left: 0;
@@ -38,10 +41,25 @@ body {
    overflow: auto;
 }
 
+
+#url {
+   font-size: 7vh;
+   margin-top:22%;
+   //margin-left:40%;
+   //width: 80%;
+   height: 40%;
+   color: #fff;
+  //text-shadow: #222222 1px 3px 0, #111111 1px 13px 5px;
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+      0px -4px 10px rgba(255,255,255,0.3);
+}
+
 #defaultCountdown {
-    margin-top:24%;
+    //margin-top:24%;
+    margin-top:30%;
     margin-left:40%;
-    width: 40%;
+    //width: 40%;
+    width: 30%;
     height: 40%;
     color: #fff;
    //text-shadow: #222222 1px 3px 0, #111111 1px 13px 5px;
