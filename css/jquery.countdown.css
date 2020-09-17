@@ -49,9 +49,9 @@ body {
    //width: 80%;
    height: 40%;
    color: #fff;
-  //text-shadow: #222222 1px 3px 0, #111111 1px 13px 5px;
-  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
-      0px -4px 10px rgba(255,255,255,0.3);
+  text-shadow: #222222 1px 1px 0, #111111 1px 8px 5px;
+  //text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+  //    0px -4px 10px rgba(255,255,255,0.3);
 }
 
 #defaultCountdown {
@@ -62,9 +62,10 @@ body {
     width: 30%;
     height: 40%;
     color: #fff;
-   //text-shadow: #222222 1px 3px 0, #111111 1px 13px 5px;
-   text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
-       0px -4px 10px rgba(255,255,255,0.3);
+//   text-shadow: #222222 1px 3px 0, #111111 1px 13px 5px;
+  text-shadow: #222222 1px 1px 0, #111111 1px 8px 5px;
+   //text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+  //     0px -4px 10px rgba(255,255,255,0.3);
 }
 
 .is-countdown {
