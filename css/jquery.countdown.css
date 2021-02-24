@@ -13,7 +13,7 @@ html, body, .container {
 }
 
 body {
-   background-image: url("../devnexus.png");
+   background-image: url("../dev-live-background.png");
    //background-image: url("../background.jpg");
    no-repeat center center fixed; 
    -webkit-background-size: cover;
@@ -49,7 +49,9 @@ body {
    //width: 80%;
    height: 132%;
    color: #fff;
-  text-shadow: #222222 1px 1px 0, #111111 1px 8px 5px;
+  //text-shadow: #222222 1px 1px 0, #111111 1px 8px 5px;
+  text-shadow: #777777 1px 1px 0, #555555 1px 5px 5px;
+  
   //text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
   //    0px -4px 10px rgba(255,255,255,0.3);
 }
@@ -61,9 +63,11 @@ body {
     //width: 40%;
     width: 30%;
     height: 40%;
-    color: #fff;
+//    color: #fff;
+	color: #dbc184;
 //   text-shadow: #222222 1px 3px 0, #111111 1px 13px 5px;
-  text-shadow: #222222 1px 1px 0, #111111 1px 8px 5px;
+//  text-shadow: #222222 1px 1px 0, #111111 1px 8px 5px;
+   text-shadow: #777777 1px 1px 0, #555555 1px 5px 5px;
    //text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
   //     0px -4px 10px rgba(255,255,255,0.3);
 }
